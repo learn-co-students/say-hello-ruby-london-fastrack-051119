@@ -12,3 +12,20 @@ describe "say_hello" do
     say_hello()
   end
 end
+
+
+require_relative './spec_helper'
+
+def say_hello
+  puts "Hello #{name}!"
+end
+    say_hello("Kent Beck")
+  end
+
+def say_hello
+  puts "Hello #{name}!"
+end
+  
+    say_hello("Ruby Programmer")
+  end
+end
